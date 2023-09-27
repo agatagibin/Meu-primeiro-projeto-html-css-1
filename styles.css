@@ -1,0 +1,130 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    border-radius: 50px;
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+font-size: 100px;
+font-weight: 900px;
+line-height: 122px;
+color: #515151;
+}
+
+h2 {
+font-size: 58px;
+font-weight: 500px;
+line-height: 70px;
+color: #515151;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    
+}
+
+.button-main {
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px #00000040);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    
+
+}
+
+
+@media screen and (max-width:875px) {
+
+    header {
+        display: none;
+    }
+ 
+    .logo-image {
+        width: 354px;
+        height: 317px;
+        margin: 149px 20px 40px;
+    }
+    
+    section {
+        display: block;
+        margin: 0 50px;
+    }
+
+    h1 {
+        width: 263px;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: normal;
+        text-align: center;
+        margin: 0 12px
+    }
+
+    h2 {
+        width: 232px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0 30px 18px;
+        
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-main {
+        margin: 0 30px 130px;
+    }
+}
